@@ -1,0 +1,19 @@
+.Chart-buttonSpace  {
+    Display:flex;
+    height: 100%;
+    grid-row: 3;
+    grid-column: 2;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px;
+    
+}
+.Chart-navButton{
+    height: 40px;
+    width: 80px;
+    grid-row: 3;
+    background-color: whitesmoke;
+    border-width: 5px;
+    border-color: var(--chartbg);
+    color: var(--chartbg);
+}
